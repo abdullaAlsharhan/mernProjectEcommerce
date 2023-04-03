@@ -7,6 +7,7 @@ import { clearErrors, getProduct } from "../../actions/productAction";
 import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/Loader/Loader";
 import { useAlert } from "react-alert";
+import { colors } from "@material-ui/core";
 
 const Home = () => {
   const alert = useAlert();
@@ -27,11 +28,11 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="ECOMMERCE" />
+          <MetaData title="Home Center" />
 
           <div className="banner">
-            <p>Welcome to Ecommerce</p>
-            <h1>FIND AMAZING PRODUCTS BELOW</h1>
+            <p style = {{color: 'black'}}>Welcome to Home Center</p>
+            <h1 style = {{color: 'black'}}>FIND AMAZING PRODUCTS BELOW</h1>
 
             <a href="#container">
               <button>

@@ -5,7 +5,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 import InstagramIcon from "@material-ui/icons/Instagram";
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://instagram.com/meabhisingh";
+    window.location = "https://instagram.com/homecenter";
   };
   return (
     <div className="aboutSection">
@@ -26,7 +26,7 @@ const About = () => {
               Visit Instagram
             </Button>
             <span>
-              This is a sample wesbite made by @meabhisingh. Only with the
+              This is a sample wesbite made by @homecenter. Only with the
               purpose to teach MERN Stack on the channel 6 Pack Programmer
             </span>
           </div>
@@ -39,7 +39,7 @@ const About = () => {
               <YouTubeIcon className="youtubeSvgIcon" />
             </a>
 
-            <a href="https://instagram.com/meabhisingh" target="blank">
+            <a href="https://instagram.com/homecenter" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>

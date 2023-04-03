@@ -28,13 +28,14 @@ const NewProduct = ({ history }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
+
+    "Best Selling",
+    "Latest Promotion",
+    "New Product",
+    "Sofa",
+    "Office",
+    "Bedding",
+    "Furniture",  
   ];
 
   useEffect(() => {
